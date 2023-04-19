@@ -54,7 +54,7 @@ function App() {
               return (
                 <li key={item.id}>
                   {item.value}
-                  <button onClick={() => deleteItem(item.id)}>X</button>
+                  <button onClick={() => deleteItem(item.id)}>🗑️</button>
                 </li>
               );
             }
